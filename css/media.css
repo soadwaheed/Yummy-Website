@@ -3,6 +3,11 @@
     #searchName
     {
         margin-bottom: 20px;
+        margin-left: 18px;
+    }
+    #searchLetter
+    {
+        margin-left: 18px;
     }
     #data
     {
