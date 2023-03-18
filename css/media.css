@@ -1,0 +1,43 @@
+@media screen and (max-width:670px)
+{
+    #searchName
+    {
+        margin-bottom: 20px;
+    }
+    #data
+    {
+        margin-left: 45px;
+    }
+}
+@media screen and (min-width:671px) and (max-width:768px)
+{
+    #searchName
+    {
+        margin-bottom: 20px;
+    }
+    #data
+    {
+        margin-left: 40px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:991px)
+{
+    #data
+  {
+    margin-left: 35px;
+  }
+}
+@media screen and (min-width:992px) and (max-width:1100px)
+{
+  #data
+  {
+    margin-left: 42px;
+  }
+}
+@media screen and (min-width:1200px) and (max-width:1290px)
+{
+  #data
+  {
+    margin-left: 42px;
+  }
+}

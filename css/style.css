@@ -1,0 +1,83 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #0D0D0D;
+    color: #f9f6f6 !important;
+    overflow: hidden;
+}
+.logo-img
+{
+    width: 50px;
+}
+.nav-details
+{
+    background-color: #0D0D0D;
+}
+.links li
+{
+    cursor: pointer;
+}
+.meal-item
+{
+    cursor: pointer;
+}
+.meal-shadow
+{
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transition: .5s;
+}
+.meal-item:hover .meal-shadow
+{
+    top: 0;
+}
+.links li
+{
+    top: 0;
+}
+.loading
+{
+    display: flex;
+    z-index: 999;
+}
+.sideNav
+{
+    z-index: 99;
+}
+.inner-loading
+{
+    background-color: #0D0D0D;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0;    */
+}
+.search ::placeholder
+{
+    color:rgb(112,111,111)!important ;
+    /* color: darkgrey !important; */
+    /* opacity: 0.4 !important; */
+}
+.area,.ingredients,.icons,.close,.nav-footer i
+{
+    cursor: pointer;
+}
+.color-alert
+{
+    color: #055160;
+    background-color: #cff4fc;
+    border-color: #b6effb;
+}
+#nameAlert,#emailAlert,#phoneAlert,#ageAlert,#passwordAlert,#repasswordAlert
+{
+    display:none;
+}
